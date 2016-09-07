@@ -1,4 +1,7 @@
 $(document).ready(function() {
+    var socket = io();
+    var input = $('input');
+    var messages = $('#messages');
     var input = $('input');
     var messages = $('#messages');
 

@@ -1,22 +1,17 @@
 {
-  "name": "public",
+  "name": "workspace",
   "version": "1.0.0",
-  "description": "chatroom web app that allow anyone to send and receive realtime message",
-  "main": "index.js",
+  "description": "chatroom web app",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/scottdiallo/chatroom.git"
   },
-  "keywords": [
-    "chat",
-    "sms",
-    "realtime",
-    "messaging"
-  ],
-  "author": "Scott Diallo",
+  "author": "Scot Diallo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/scottdiallo/chatroom/issues"
